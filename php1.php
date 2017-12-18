@@ -26,5 +26,32 @@ function vidurkis2($b) {
 
 echo (vidurkis($a) - vidurkis2($b));
 
+function vidurkis1($a) {
+    return 
+}
+
+
+//Tobulieji skaičiai
+
+function tobulas($number)
+    {
+        // Tik teigiami skaičiai yra tobuli
+        if ($number < 1)
+        {
+            return false;
+        }
+
+        
+        for($i = 1; $i <= $number; $i++)
+        {
+            if ($number % $i == 0)
+            {
+                $arrFactors[] = $i;
+            }
+        }
+ 
+        return ($number == array_sum($arrFactors) / 2) ? true : false;
+    }
+
 
 ?>
