@@ -26,9 +26,6 @@ function vidurkis2($b) {
 
 echo (vidurkis($a) - vidurkis2($b));
 
-function vidurkis1($a) {
-    return 
-}
 
 
 //Tobulieji skaičiai
@@ -52,6 +49,8 @@ function tobulas($number)
  
         return ($number == array_sum($arrFactors) / 2) ? true : false;
     }
+
+tobulas (1 - 1000)
 
 
 ?>
